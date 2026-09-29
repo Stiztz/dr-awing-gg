@@ -24,7 +24,12 @@
     "wraith pcific": "PCIFIC",
     "cybershoke esports": "CYBERSHOKE",
     "esport berg": "Esports BERG",
-    "phantom academy": "Phantom Esports Academy"
+    "phantom academy": "Phantom Esports Academy",
+    "cybershoke esports": "CYBERSHOKE",
+    "omega": "OMEGA",
+    "movistar koi fénix": "Movistar KOI Academy",
+    "ucam esports": "UCAM Esports",
+    "the secret club": "Team Secret Club"
   },
   "tournaments": [
     {
@@ -53,5 +58,6 @@
       "sport": "cs2",
       "status": "none"
     }
+    
   ]
 }
