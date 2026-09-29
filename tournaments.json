@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "updatedAt": "2026-09-29",
+  "_readme": [
+    "Public tournament bank for Dr Awing. Maps a Raiden tournament to the public page",
+    "its scraper value is taken from. Contains only organiser-published tournament",
+    "names and public URLs — no internal identifiers beyond the tournament number,",
+    "which is meaningless outside Raiden.",
+    "",
+    "Matching order: raidenId, then exact name, then pattern.",
+    "",
+    "  raidenId  the tournament number Raiden shows (tournament-6927 -> 6927).",
+    "            Preferred: internal names are often abbreviated (ECL SA s54) and",
+    "            never match the source's wording. Changes each season, but so",
+    "            does the source URL, so the pairing had to be redone anyway.",
+    "  name      exact tournament name, case-insensitive. Fallback when no id.",
+    "  pattern   regular expression. Best for status:none rules that outlive",
+    "            season numbers, where there is no URL to keep current.",
+    "  sport     cs2 | valorant | dota2 | lol",
+    "  url       the page to take the scraper value from",
+    "  status    'none' = no usable source exists; its matches stop being flagged",
+    "            for everyone, instead of each person muting it again every week.",
+    "",
+    "Add entries at the end. Dr Awing's Bank tab produces ready-made lines."
+  ],
+  "tournaments": [
+    {
+      "raidenId": 6927,
+      "name": "Esports World Cup 2024",
+      "sport": "cs2",
+      "url": "https://www.hltv.org/matches"
+    },
+    {
+      "name": "EPL World Series: Southeast Asia 2025-2026 Season",
+      "sport": "dota2",
+      "url": "https://www.dotabuff.com/esports/leagues"
+    },
+    {
+      "name": "Valorant Champions 2026",
+      "sport": "valorant",
+      "url": "https://www.vlr.gg/matches/results"
+    },
+    {
+      "name": "CBLOL 2026 Season Split 2 Playoffs",
+      "sport": "lol",
+      "url": "https://lol.fandom.com/wiki/Data:CBLOL/2026_Season/Split_2_Playoffs"
+    },
+    {
+      "pattern": "^Berserk CS2 League",
+      "sport": "cs2",
+      "status": "none"
+    }
+  ]
+}
