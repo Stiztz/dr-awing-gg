@@ -1,28 +1,31 @@
 {
-  "version": 2,
+  "version": 3,
   "updatedAt": "2026-09-29",
   "_readme": [
-    "Public tournament bank for Dr Awing. Maps a Raiden tournament to the public page",
-    "its scraper value is taken from. Contains only organiser-published tournament",
-    "names and public URLs — no internal identifiers beyond the tournament number,",
-    "which is meaningless outside Raiden.",
+    "Shared file for Dr Awing. Two things live here, both of them public information:",
+    "tournament pages, and how team names differ between the public sites and Raiden.",
+    "Nothing internal belongs in this file — no match ids, no host names, no notes about",
+    "why something is or is not offered.",
     "",
-    "Matching order: raidenId, then exact name, then pattern.",
-    "",
-    "  raidenId  the tournament number Raiden shows (tournament-6927 -> 6927).",
-    "            Preferred: internal names are often abbreviated (ECL SA s54) and",
-    "            never match the source's wording. Changes each season, but so",
-    "            does the source URL, so the pairing had to be redone anyway.",
+    "tournaments[] — where a tournament's scraper values come from",
+    "  raidenId  the tournament number Raiden shows (tournament-6927 -> 6927). Preferred:",
+    "            internal names are abbreviated (ECL SA s54) and never match the source.",
     "  name      exact tournament name, case-insensitive. Fallback when no id.",
-    "  pattern   regular expression. Best for status:none rules that outlive",
-    "            season numbers, where there is no URL to keep current.",
+    "  pattern   regular expression; best for status:none rules that outlive a season.",
     "  sport     cs2 | valorant | dota2 | lol",
     "  url       the page to take the scraper value from",
-    "  status    'none' = no usable source exists; its matches stop being flagged",
-    "            for everyone, instead of each person muting it again every week.",
+    "  status    'none' = no usable source; its matches stop being flagged for everyone",
     "",
-    "Add entries at the end. Dr Awing's Bank tab produces ready-made lines."
+    "teamAliases — public name on Liquipedia/HLTV -> the name Raiden uses.",
+    "  Keys are lowercase. One person solves a mismatch once and nobody repeats it.",
+    "  Dr Awing's Tournament BL Check produces these lines ready to paste."
   ],
+  "teamAliases": {
+    "wraith pcific": "PCIFIC",
+    "cybershoke esports": "CYBERSHOKE",
+    "esport berg": "Esports BERG",
+    "phantom academy": "Phantom Esports Academy"
+  },
   "tournaments": [
     {
       "raidenId": 6927,
@@ -31,9 +34,9 @@
       "url": "https://www.hltv.org/matches"
     },
     {
-      "name": "EPL World Series: Southeast Asia 2025-2026 Season",
-      "sport": "dota2",
-      "url": "https://www.dotabuff.com/esports/leagues"
+      "name": "CCT Europe 2026 Series #10",
+      "sport": "cs2",
+      "url": "https://www.hltv.org/events/9420/cct-2026-europe-series-10"
     },
     {
       "name": "Valorant Champions 2026",
