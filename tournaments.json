@@ -32,27 +32,7 @@
     "the secret club": "Team Secret Club"
   },
   "tournaments": [
-    {
-      "raidenId": 6927,
-      "name": "Esports World Cup 2024",
-      "sport": "cs2",
-      "url": "https://www.hltv.org/matches"
-    },
-    {
-      "name": "CCT Europe 2026 Series #10",
-      "sport": "cs2",
-      "url": "https://www.hltv.org/events/9420/cct-2026-europe-series-10"
-    },
-    {
-      "name": "Valorant Champions 2026",
-      "sport": "valorant",
-      "url": "https://www.vlr.gg/matches/results"
-    },
-    {
-      "name": "CBLOL 2026 Season Split 2 Playoffs",
-      "sport": "lol",
-      "url": "https://lol.fandom.com/wiki/Data:CBLOL/2026_Season/Split_2_Playoffs"
-    },
+    
     {
       "pattern": "^Berserk CS2 League",
       "sport": "cs2",
