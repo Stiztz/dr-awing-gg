@@ -266,6 +266,31 @@
       "pattern": "^Berserk CS2 League",
       "sport": "cs2",
       "status": "none"
+    },
+    {
+      "ids": [
+        "15070",
+        "15071"
+      ],
+      "name": "Private Club #2: Closed Qualifier",
+      "sport": "cs2",
+      "url": "https://www.hltv.org/events/9408/1win-private-club-season-2-closed-qualifier"
+    },
+    {
+      "ids": [
+        "15073"
+      ],
+      "name": "Roman Imperium Cup IX",
+      "sport": "cs2",
+      "url": "https://www.hltv.org/events/9318/roman-imperium-cup-ix"
+    },
+    {
+      "ids": [
+        "15075"
+      ],
+      "name": "EMEA Masters 2026 Summer",
+      "sport": "lol",
+      "url": "https://lol.fandom.com/wiki/EMEA_Masters/2026_Season/Summer_Main_Event"
     }
   ],
   "schedulePairs": {
