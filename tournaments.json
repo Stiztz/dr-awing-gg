@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "updatedAt": "2026-10-03",
   "_readme": [
     "Shared file for Dr Awing. Two things live here, both of them public information:",
@@ -20,6 +20,12 @@
     "  Keys are lowercase. One person solves a mismatch once and nobody repeats it.",
     "  The Tournament BL Check tab produces these lines ready to paste.",
     "",
+    "schedulePairs — tournament name with the season taken out -> Huginn sub-label.",
+    "  \"united21\": \"CSGO|United21\". The sub-label, never the bare root: CCT alone",
+    "  would mix Europe with South America, which are different tournaments.",
+    "  Which editions inside a label belong to a tournament is chosen per check,",
+    "  not stored — those titles carry the season.",
+    "",
     "Files written before version 4 used a different key name for ids; the older",
     "spelling is still read, so nothing already published has to be rewritten."
   ],
@@ -35,15 +41,7 @@
     "pain academy": "paiN Gaming Academy",
     "yawara e-sports": "Yawara Esports",
     "berlin international gaming": "BIG",
-    "gamespace mediterranean college esports": "Gamespace MCE",
-    "phantom": "Phantom Esports",
-    "big": "BIG",
-    "infinite": "Infinite",
-    "eac": "EA Copenhagen",
-    "unity": "Team UNiTY",
-    "famalicão": "FC Famalicão Esports",
-    "pure": "Pure",
-    "navi junior": "Natus Vincere Junior"
+    "gamespace mediterranean college esports": "Gamespace MCE"
   },
   "tournaments": [
     {
@@ -268,14 +266,13 @@
       "pattern": "^Berserk CS2 League",
       "sport": "cs2",
       "status": "none"
-    },
-    {
-      "ids": [
-        "15068"
-      ],
-      "name": "Journey Autumn 2026",
-      "sport": "cs2",
-      "url": "https://www.hltv.org/events/9253/rog-journey-autumn-2026"
     }
-  ]
+  ],
+  "schedulePairs": {
+    "cct europe series": "CSGO|CCT / Europe",
+    "cct south america series": "CSGO|CCT / South America",
+    "cct europe challengers": "CSGO|CCT / Chall",
+    "epl world series southeast asia": "Dota2|EPL Worlds Series",
+    "emea masters summer swiss": "LoL|EMEA Masters"
+  }
 }
