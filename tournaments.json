@@ -291,6 +291,14 @@
       "name": "EMEA Masters 2026 Summer",
       "sport": "lol",
       "url": "https://lol.fandom.com/wiki/EMEA_Masters/2026_Season/Summer_Main_Event"
+    },
+    {
+      "ids": [
+        "15067"
+      ],
+      "name": "Journey Autumn 2026",
+      "sport": "cs2",
+      "url": "https://www.hltv.org/events/9253/rog-journey-autumn-2026"
     }
   ],
   "schedulePairs": {
