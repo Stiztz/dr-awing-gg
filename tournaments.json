@@ -268,6 +268,14 @@
       "pattern": "^Berserk CS2 League",
       "sport": "cs2",
       "status": "none"
+    },
+    {
+      "ids": [
+        "15068"
+      ],
+      "name": "Journey Autumn 2026",
+      "sport": "cs2",
+      "url": "https://www.hltv.org/events/9253/rog-journey-autumn-2026"
     }
   ]
 }
