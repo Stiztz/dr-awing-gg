@@ -308,6 +308,30 @@
       "name": "Journey Autumn 2026",
       "sport": "cs2",
       "url": "https://www.hltv.org/events/9253/rog-journey-autumn-2026"
+    },
+    {
+      "ids": [
+        "15134"
+      ],
+      "name": "European Pro League Regular Season 7",
+      "sport": "cs2",
+      "status": "none"
+    },
+    {
+      "ids": [
+        "15084"
+      ],
+      "name": "eXTREMESLAND 2026: Oceanic Qualifier",
+      "sport": "cs2",
+      "status": "none"
+    },
+    {
+      "ids": [
+        "15080"
+      ],
+      "name": "NODWIN Clutch Series #13 Play-In",
+      "sport": "cs2",
+      "url": "https://www.hltv.org/events/9439/nodwin-clutch-series-13-closed-qualifier"
     }
   ],
   "schedulePairs": {
