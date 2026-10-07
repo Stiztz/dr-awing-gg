@@ -332,6 +332,23 @@
       "name": "NODWIN Clutch Series #13 Play-In",
       "sport": "cs2",
       "url": "https://www.hltv.org/events/9439/nodwin-clutch-series-13-closed-qualifier"
+    },
+    {
+      "ids": [
+        "15140"
+      ],
+      "name": "CCT Europe 2026 Series #11 Play-In",
+      "sport": "cs2",
+      "url": "https://www.hltv.org/events/9441/cct-2026-europe-series-11-closed-qualifier"
+    },
+    {
+      "ids": [
+        "15141",
+        "15142"
+      ],
+      "name": "ESL Challenger League Season 52: Europe - Cup #8",
+      "sport": "cs2",
+      "url": "https://www.hltv.org/events/9374/esl-challenger-league-season-52-europe-cup-8"
     }
   ],
   "schedulePairs": {
