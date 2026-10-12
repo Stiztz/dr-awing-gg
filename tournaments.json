@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "updatedAt": "2026-10-07",
+  "updatedAt": "2026-10-12",
   "_readme": [
     "Shared file for Dr Awing. Two things live here, both of them public information:",
     "tournament pages, and how team names differ between the public sites and ours.",
@@ -384,6 +384,19 @@
     "stake ranked episode 4": "CSGO|Stake",
     "betboom champions cup closed qualifier": "World of Tanks|BB",
     "nodwin clutch series play in": "CSGO|Nodwin",
-    "p universe closed qualifier": "Dota2|FIssure"
+    "p universe closed qualifier": "Dota2|FIssure",
+    "betboom streamers battle cs": "CSGO|BetBoom",
+    "cct europe series play in": "CSGO|CCT / Europe",
+    "esl challenger league north america cup": "CSGO|Challenger League / North America",
+    "esl challenger league south america cup": "CSGO|Challenger League / South America",
+    "exort 34": "CSGO|Exort / Exort Series",
+    "pgl bucharest open qualifier": "CSGO|PGL",
+    "stake pulse beat iii": "CSGO|Stake",
+    "dreamleague south america open qualifier": "Dota2|DreamLeague / South America",
+    "epl masters iii play in": "Dota2|European Pro League",
+    "streamers league": "Dota2|1win Series",
+    "cblol promotion": "LoL|CBLOL",
+    "lcs promotion": "LoL|LCS",
+    "betboom arena tankov": "World of Tanks|BB"
   }
 }
