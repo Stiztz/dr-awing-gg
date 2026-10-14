@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "updatedAt": "2026-10-12",
+  "updatedAt": "2026-10-14",
   "_readme": [
     "Shared file for Dr Awing. Two things live here, both of them public information:",
     "tournament pages, and how team names differ between the public sites and ours.",
@@ -351,6 +351,71 @@
       "name": "ESL Challenger League Season 52: Europe - Cup #8",
       "sport": "cs2",
       "url": "https://www.hltv.org/events/9374/esl-challenger-league-season-52-europe-cup-8"
+    },
+    {
+      "ids": [
+        "15143"
+      ],
+      "name": "ESL Challenger League Season 52: North America - Cup #3",
+      "sport": "cs2",
+      "url": "https://www.hltv.org/events/9387/esl-challenger-league-season-52-north-america-cup-3"
+    },
+    {
+      "ids": [
+        "15144",
+        "15145"
+      ],
+      "name": "ESL Challenger League Season 52: South America - Cup #3",
+      "sport": "cs2",
+      "url": "https://www.hltv.org/events/9385/esl-challenger-league-season-52-south-america-cup-3"
+    },
+    {
+      "ids": [
+        "15195"
+      ],
+      "name": "Exort 34",
+      "sport": "cs2",
+      "status": "none"
+    },
+    {
+      "ids": [
+        "15194"
+      ],
+      "name": "PGL Bucharest 2027: Open Qualifier",
+      "sport": "cs2",
+      "url": "https://www.hltv.org/events/9450/pgl-bucharest-2027-open-qualifier-1"
+    },
+    {
+      "ids": [
+        "15192"
+      ],
+      "name": "PGL Bucharest 2027: Open Qualifier #1",
+      "sport": "cs2",
+      "url": "https://www.hltv.org/events/9450/pgl-bucharest-2027-open-qualifier-1"
+    },
+    {
+      "ids": [
+        "15097"
+      ],
+      "name": "Stake Pulse Beat III",
+      "sport": "cs2",
+      "url": "https://www.hltv.org/events/9223/stake-pulse-beat-iii"
+    },
+    {
+      "ids": [
+        "15188"
+      ],
+      "name": "EPL Masters III Play-In",
+      "sport": "dota2",
+      "url": "https://www.dotabuff.com/esports/leagues/19944-epl-masters-2026"
+    },
+    {
+      "ids": [
+        "15208"
+      ],
+      "name": "Streamers League #3",
+      "sport": "dota2",
+      "status": "none"
     }
   ],
   "schedulePairs": {
